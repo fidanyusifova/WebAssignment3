@@ -1,0 +1,14 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "question": "What is React?",
+      "answer": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "id": 2,
+      "question": "What is JSX?",
+      "answer": "JSX is a syntax extension for JavaScript used with React to describe UI elements."
+    }
+    ]
+}
