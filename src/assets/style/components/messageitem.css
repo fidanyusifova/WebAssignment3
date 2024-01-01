@@ -19,3 +19,12 @@ p {
   margin: 5px 0;
 }
 
+.delete-btn {
+  background-color: red !important;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred !important;
+}
