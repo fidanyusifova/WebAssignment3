@@ -1,0 +1,93 @@
+.cards-location {
+  max-width: 1600px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(213, 233, 251);
+}
+.cards-location h1{
+  color: rgb(11, 232, 18);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-style: italic;
+}
+.share-btn, .create-btn{
+  background-color: rgb(11, 232, 18);
+  max-width: 300px;
+  color: #2d3748;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.share-btn:hover, .create-btn:hover{
+  color: aliceblue;
+}
+.flashcard-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.creating {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+
+#operations {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+#filterstatus {
+  background-color: rgb(11, 232, 18);
+  margin-right: 50px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#sortOrder {
+  background-color: rgb(11, 232, 18);
+  margin-left: 50px;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.search {
+  background-color: rgb(11, 232, 18);
+  padding: 15px;
+  padding-right: 100px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.each-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.loading{
+  color: #2d3748;
+  text-align: center;
+  font-size: 25px;
+}
+
+.finished-loading{
+  color: red;
+  text-align: center;
+  font-size: 25px;
+}
