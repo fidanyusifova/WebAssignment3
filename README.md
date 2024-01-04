@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -22,53 +19,54 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+>>>>>>> # Flashcard Management Web App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This repository contains a web application built with React for managing flashcards. It allows users to create, update, delete, and organize flashcards for efficient learning.
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Create Cards:** Create new flashcards with text or image content.
+- **Update Cards:** Modify existing flashcards with updated text, answers, or images.
+- **Delete Cards:** Remove flashcards that are no longer required.
+- **Drag and Drop:** Reorder flashcards using drag and drop functionality.
+- **Projects Section:** Display a section showcasing various projects.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   git clone https://fidanyusifova.github.io/WebAssignment3
+   
+1.npm start
+The application will be served at `http://localhost:3000`.
+2.json-server --watch src/json/cards.json --port 3001
+(run them at the same time)
+## Components Overview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contact Form
 
-### Code Splitting
+- `ContactForm.js`: Component for user contact information and messaging.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Flashcard Management
 
-### Analyzing the Bundle Size
+- `CreateCardModal.js`: Modal component for creating new flashcards.
+- `FlashCardItem.js`: Component to display individual flashcards.
+- `UpdateCardModal.js`: Modal for updating existing flashcards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Navigation
 
-### Making a Progressive Web App
+- `Navbar.js`: Navigation bar with links to different sections of the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Other
 
-### Advanced Configuration
+- `Notification.js`: Component for displaying notifications.
+- `ProjectsSection.js`: Section displaying various projects.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Styling Overview
 
-### Deployment
+The application uses CSS files to style components. The CSS files contain styles for individual components, common classes, and responsive designs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# WebAssignment3
->>>>>>> 623660f83b131ce8826c87c2c8e679be925f12d7
