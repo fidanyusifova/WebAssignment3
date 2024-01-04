@@ -7,8 +7,7 @@ import ContactPage from './pages/ContactPage.jsx';
 function App() {
   return (
     <div className="App">
-      
-      <Router>
+     <Router basename='/WebAssignment3'>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contactpage" element={<ContactPage />} />
